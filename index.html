@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="stylesheet" href="src/style.css" />
     <title>AI Food Recipe Generator</title>
 </head>
@@ -14,7 +15,7 @@
    </header>
 
    <main>
-       <form>
+       <form id="recipe-generator-form">
            <input type="text" placeholder="Enter the main ingredient of the food recipe" 
            autofocus
            required
@@ -23,11 +24,7 @@
            />
            <input type="submit" class="button"/>
         </form>
-   <div class="recipe">
-   Garlic and parmesan potato soup
-   <br />
-   Speedy Singapore noodles
-   </div>     
+   <div class="recipe" id="recipe"></div>     
    </main>
 
 <footer> This AI project was coded by <a href="https://github.com/Marietje86" target="_blank"> Mariëtte Everitz</a> and is open-sourced on <a href="https://github.com/Marietje86/food-recipe-generator" target="_blank">Github</a>

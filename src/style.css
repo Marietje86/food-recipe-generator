@@ -29,6 +29,7 @@ h1 {
 form {
     padding: 20px;
     background-color: rgb(255, 235, 204);
+    color:rgba(100, 46, 122, 0.23);
     box-shadow: 0px 19px 50px rgba(0, 0, 0, 0.3);
     border-radius: 20px;
     display: flex;
@@ -42,14 +43,14 @@ form {
     font-size: 16px;
     border-radius: 18px;
     line-height: 20px;
-    color:rgba(100, 46, 122, 0.23)
+    color:rgba(0, 0, 0, 0.23)
 }
 
 .button {
     margin-left: 10px;
     background: rgb(143, 105, 105);
     box-shadow: 3px 3px 10px 5px rgba(0, 0, 0, 0.3);
-    color: white;
+    color: rgb(255, 255, 255);
     border: none;
     border-radius: 18px;
     width: 100px;
