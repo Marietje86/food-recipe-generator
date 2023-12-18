@@ -1,0 +1,77 @@
+body {
+    background: radial-gradient(circle at 10% 20%, rgb(255, 246, 236) 39.5%, rgba(100, 46, 122, 0.23) 100.2%);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+    color: rgb(143, 105, 105);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.container {
+    margin: 120px auto;
+    max-width: 600px;
+}
+
+header {
+    margin-bottom: 30px;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 1.5;
+    color: #6c5b7c;
+}
+
+form {
+    padding: 20px;
+    background-color: rgb(255, 235, 204);
+    box-shadow: 0px 19px 50px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.instructions {
+    padding: 14px;
+    border: 1px solid #423703;
+    width: 80%;
+    font-size: 16px;
+    border-radius: 18px;
+    line-height: 20px;
+    color:rgba(100, 46, 122, 0.23)
+}
+
+.button {
+    margin-left: 10px;
+    background: rgb(143, 105, 105);
+    box-shadow: 3px 3px 10px 5px rgba(0, 0, 0, 0.3);
+    color: white;
+    border: none;
+    border-radius: 18px;
+    width: 100px;
+    padding: 14px 14px;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 18px;
+}
+
+.recipe {
+    font-size: 16px;
+    background-color:rgb(255, 250, 244);
+    padding: 20px;
+    line-height: 2;
+    border-left: 3px solid rgb(143, 105, 105);
+    box-shadow: 0px 19px 50px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    font-size: 13px;
+    margin-top: 30px;
+}
+
