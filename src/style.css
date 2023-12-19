@@ -26,14 +26,27 @@ h1 {
     color: #6c5b7c;
 }
 
-form {
-    padding: 20px;
+.form-container {
     background-color: rgb(255, 235, 204);
-    color:rgba(100, 46, 122, 0.23);
+    color:rgb(22, 18, 18);
     box-shadow: 0px 19px 50px rgba(0, 0, 0, 0.3);
     border-radius: 20px;
-    display: flex;
     margin-bottom: 30px;
+    padding: 15px 10px;
+}
+
+form {
+    display: flex;
+}
+
+.hint {
+    line-height: 1.5;
+    margin-top: 5px;
+    margin-left: 10px;
+    opacity: 0.6;
+    font-size: 14px;
+    color: black;
+
 }
 
 .instructions {
@@ -70,6 +83,10 @@ form {
     border-radius: 5px;
 }
 
+.hidden {
+    display: none;
+}
+
 .recipe strong {
     color: rgb(143, 105, 105);
 }
@@ -80,3 +97,17 @@ footer {
     margin-top: 30px;
 }
 
+.generating {
+    animation: blink-animation 1s steps(5, start) infinite;
+  }
+  
+  @keyframes blink-animation {
+    to {
+      visibility: hidden;
+    }
+  }
+  @-webkit-keyframes blink-animation {
+    to {
+      visibility: hidden;
+    }
+  }
