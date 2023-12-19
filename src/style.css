@@ -70,6 +70,10 @@ form {
     border-radius: 5px;
 }
 
+.recipe strong {
+    color: rgb(143, 105, 105);
+}
+
 footer {
     text-align: center;
     font-size: 13px;
